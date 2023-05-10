@@ -23,6 +23,7 @@
   }
 
   .img {
+    margin-top: 5%;
     width: 95%;
     max-width: 500px;
     height: 100%;
@@ -30,5 +31,15 @@
   }
 
   .AboutMe {
+    margin-top: 5%;
     color: rgb(71, 82, 120);
+    font-size: xx-large;
+  }
+
+  .p1 {
+    font-size:x-large;
+  }
+
+  .p2 {
+    font-size:x-large;
   }
