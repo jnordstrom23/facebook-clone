@@ -1,0 +1,18 @@
+.Header {
+    text-align: center;
+    background: rgb(71, 82, 120);
+    color: whitesmoke;
+    width: 100%;
+    
+  }
+
+.Header__Title {
+    font-size: 40px;
+    font-family: "papyrus";
+}
+
+.Header__SubTitle {
+    font-size: 25px;
+    font-family: "papyrus";
+}
+
