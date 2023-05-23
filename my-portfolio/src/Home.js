@@ -1,9 +1,9 @@
-import "./LandingPage.css";
+import "./Home.css";
 import jeff from "./jeff.jpeg";
 
-function LandingPage() {
+function Home() {
     return (
-        <div className="LandingPage">
+        <div className="Home">
         <div class="row">
   <div class="column">
     <img className="img" src={jeff} size="small" alt="my mug"/>
@@ -23,4 +23,4 @@ function LandingPage() {
     )
 }
 
-export default LandingPage
+export default Home;

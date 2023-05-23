@@ -1,15 +1,20 @@
-.dropdown-navigation {
+.dropdown-menu-wrapper {
     position: relative;
     display:flex;
     justify-content: center;
   }
   
   .dropdown-button {
-    padding: 10px 20px;
+    padding: 15px 30px;
     background-color:transparent;
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: transform 0.3 ease;
+  }
+
+  .dropdown-button.open {
+    transform: rotate(90deg);
   }
   
   .dropdown-menu {
