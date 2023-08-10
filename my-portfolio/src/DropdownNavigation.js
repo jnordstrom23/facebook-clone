@@ -21,7 +21,7 @@ const DropdownNavigation = () => {
   return (
     <div className={`dropdown-menu-wrapper ${isOpen ? 'open' : ''}`}>
       <button className={`dropdown-button ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-      <FontAwesomeIcon icon={faBars} />
+      <FontAwesomeIcon className="hamburger"icon={faBars} />
       </button>
       {isOpen && (
         <nav>
