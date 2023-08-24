@@ -32,14 +32,25 @@
 
   .AboutMe {
     margin-top: 5%;
-    color: rgb(71, 82, 120);
+    color: teal;
     font-size: xx-large;
+    font-weight: 900;
+    font-family: "georgia";
   }
 
   .p1 {
     font-size:x-large;
+    font-weight: 500;
   }
 
   .p2 {
     font-size:x-large;
+    font-weight: 500;
   }
+
+  .p3 {
+    font-size: large;
+    color: teal;
+    font-weight: bold;
+  }
+

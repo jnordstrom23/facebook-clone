@@ -8,14 +8,15 @@
   }
 
 .Header__Title {
-    font-size: 40px;
-    font-family: "papyrus";
+    font-size: 52px;
+    font-family: "copperplate";
     color: whitesmoke;
 }
 
 .Header__SubTitle {
-    font-size: 35px;
-    font-family: "papyrus";
+    font-size: 44px;
+    font-family: "copperplate";
     color: aquamarine;
+    font-weight: bold;
 }
 
