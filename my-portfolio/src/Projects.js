@@ -1,6 +1,8 @@
 import "./Projects.css";
 import Slideshow from './Slideshow';
 import Slideshow2 from './Slideshow2';
+import { Link } from 'react-router-dom';
+import React from 'react';
 
 function Projects() {
   const images = [
@@ -29,14 +31,18 @@ function Projects() {
     <h2 className="Project_Title">Restuarant App</h2>
    
       <Slideshow images={images} intervalTime={intervalTime} />
+    <p className="project_info">An app for ordering burritos!</p>
+    <p className="project_info">This was my final project at Whitworth University.</p>
+    <p className="project_info">The Stack: React.js, Flask API, Docker, and MYSQL </p>
+    <p className="project_info">GitHub: used for version control and continuous deployment </p>
+    <p className="project_info">AWS: Amplify, Containers, RDS, and Domain. </p>
+    <div className = "Project_Link"><Link to = "https://burrito-ordering-app-project.com/"> <button className='button'>Check it Out!</button></Link></div>
+
     
     
     
 
 </div>
-
-
-
     <div className="column">
     <h2 className="Project_Title">Facebook Clone</h2>
     

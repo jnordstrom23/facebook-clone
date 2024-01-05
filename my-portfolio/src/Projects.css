@@ -21,13 +21,43 @@
 
   .Project_Title {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1%;
     color: teal;
     font-size: xx-large;
     font-weight: 900;
     font-family: "georgia";
   }
 
+.project_info {
+  text-align: center;
+  color:black;
+}
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(71, 82, 120);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  margin-right: 20px;
+}
 
+.button:hover {
+  background-color:tan;
+  color: black;
+}
+
+.Project_Link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
