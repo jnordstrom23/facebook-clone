@@ -25,9 +25,11 @@ function Projects() {
     <div class="row">
     
     
-    <div class="column">
+    <div className="column">
     <h2 className="Project_Title">Restuarant App</h2>
+   
       <Slideshow images={images} intervalTime={intervalTime} />
+    
     
     
 
@@ -35,9 +37,11 @@ function Projects() {
 
 
 
-    <div class="column">
+    <div className="column">
     <h2 className="Project_Title">Facebook Clone</h2>
+    
     <Slideshow2 images2={images2} intervalTime={intervalTime} />
+  
 </div>
 </div>
 
