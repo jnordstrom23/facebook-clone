@@ -1,0 +1,32 @@
+
+.Parent {
+    text-align: center;
+    width: 100%;
+  }
+
+
+.Contact {
+    margin-top: 1%;
+    color: teal;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: "georgia";
+  }
+
+  .p1 {
+    font-size:x-large;
+    font-weight: 500;
+  }
+
+  .p2 {
+    font-size:x-large;
+    font-weight: 500;
+  }
+
+  .img {
+    margin-top: 1%;
+    width: 95%;
+    max-width: 100px;
+    height: 100%;
+    border-radius:7%;
+  }

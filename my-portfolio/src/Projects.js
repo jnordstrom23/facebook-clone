@@ -6,16 +6,18 @@ import React from 'react';
 
 function Projects() {
   const images = [
-    'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?cs=srgb&dl=pexels-chevanon-photography-1108099.jpg&fm=jpg',
-    'https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*',
-    'https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8xNV9waG90b19vZl9hX2RvZ19ydW5uaW5nX3dpdGhfb3duZXJfYXRfcGFya19lcF9mM2I3MDQyZC0zNWJlLTRlMTQtOGZhNy1kY2Q2OWQ1YzQzZjlfMi5qcGc.jpg',
+    require('./Burrito1.jpeg'),
+    require('./Burrito2.jpeg'),
+    require('./Burrito3.jpeg'),
+    require('./Burrito4.jpeg'),
+   
     // Add more image URLs as needed
   ];
 
   const images2 = [
-    'https://cooperpetcare.com/wp-content/uploads/2021/09/when-to-start-training-a-puppy.jpeg',
-    'https://media.wired.co.uk/photos/606d9caadbc4c121710a3ea2/16:9/w_1280,c_limit/wired-uk-puppyboom.jpg',
-    'https://d2zp5xs5cp8zlg.cloudfront.net/image-60567-800.jpg',
+    'https://npr.brightspotcdn.com/dims4/default/eeaa4f9/2147483647/strip/true/crop/2600x1733+0+0/resize/880x587!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F59%2F6e%2Fdf70d0e2464ba52d0d5ece875a29%2Fgettyimages-1243628730x.jpg',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPSmZsDhajs4e6ZdVQnlDlzjc9EznUpCmLww&s',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVvx2v_pCCnOiOnbcUrNVJbym7mIMAk5134Q&s',
     // Add more image URLs as needed
   ];
 
@@ -44,9 +46,9 @@ function Projects() {
 
 </div>
     <div className="column">
-    <h2 className="Project_Title">Facebook Clone</h2>
-    
+    <h2 className="Project_Title">Coming Soon...</h2>
     <Slideshow2 images2={images2} intervalTime={intervalTime} />
+    <p className="project_info">Meanwhile, enjoy these people playing pickleball!</p>
   
 </div>
 </div>

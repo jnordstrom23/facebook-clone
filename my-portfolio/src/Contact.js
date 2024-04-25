@@ -1,5 +1,20 @@
+import "./Contact.css";
+import { Link } from 'react-router-dom';
+import React from 'react';
+
 function Contact() {
-    return <h1>Contact Me</h1>;
-  };
+ 
+    return <div class="Parent">
+    <h2 className="Contact">Let's Connect!</h2>
+   
+   <Link to = "https://www.linkedin.com/in/jeff-nordstrom">
+   <button> 
+   <img className="img" src= "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEUAhLH///8Aga8AgK+Atc5So8TZ7PNYrsve7fMol705k7qXyt3x+vwAe6zX5+/S6PB/vNSWwdYAiLTo9PgRjLa83eml0uNqss5Xq8qTxtqy1OPN4etKpsaz2OUznMDJ5u+jzN1sttFDmL2+2eZ4vNRkqsiIu9NruNJBocN7udK43uqIxdsGkrqpzt6hxdnj7fPqeHeuAAAEqUlEQVR4nO2dbXeiOBiGSSJdENAWEBWqtbq6Wu3M//93W9btbMfJW0sykOx9ndNz+iXyXOYNnoQYBAAAAAAAAAAAAAAAAAAAAAAAAARQlmWs/aN9R2IFmuWLZd1MJk29fGSZd5KUPa6KlPxLWiSxX440WD+RG6rYI0U6rm792oo8l944hlOOYFuNY9Z3aGbYR3xBQmZbHxRpKBR8U7y431DpWNBEr9R53wF250UmSMiD6+2UPcoFyV3oeDtlkk54ZeN2O2XPKkFSuF2JTDrMXDn0HWQXaJyqDV/KvsPsALtXC5J063AzzXYahmTvsCGb6Bj+2XeYHci1DJO+w+zARTkbtlR9h9kB/w39b6X+jzR6s8Xc5dlCZ8YnLs/4/t+1BZlGR7zvO8hO+P/0FAS+PwEHbK4QjFyvwiCfKaqw7wA7Q7d3MsHGg8w+DQux4J0Hgm1XFCpGHqS8W9hekI9qLq6ng99h2xXn3qbYeNFEr7BydDukpvU+90fwDRafVh+6412y96gCr9CgHO/PyWo2q5JzOPar/t6h9Nf/AAAAAADADZSyH1BGPbtzepPL48V8dHi4MtqH60tJvdmOzNj6vm6mUZG+P4imRTRtmt1hzX6DZLu9m4/w2lRUgleMZuW5KfjrB2kxWcaZ5VQCi8+zKZfVX4Hg2uuKX+Ja7Hjjl8hXR9LoWXQdI+T3kusXC1410lCagSRp+CHgmLf/+JZobvGBVJ70Lo6cK7ORIuDTj++iPGktpBPyZC2pkCsiqDllqMrwfbmKbVd6fi2VnfUDGqu+W86WfV1DKkpT8onmgQVH+pX9pbqGB0k2nUdxttAb2R/2DA8aC8w/k1bmO6NFQ9kYLeTJuKI9w9MX/NrrmW6otgxp+JUabHkxK2jN8PKpUfQnlk4Ysk/Mg79wMtpO7RieFh0ESWF0y64dw0R+36riyeQuLDuGXx1l3jHZFe0YdsXkFpdhGpLE3DalgRqm5ipxoIZkZUpwsIZkbaoSB2t4NpW5GaxhlPluSExtxxquoalmOlzDiWOG6eczGoZOrfgdhtP69dvh8PDtdfaZzFQ6N1OJ1g2LzSgsg38W1ILL/qDYkfwRQx3RtmEV5v+tLVEajOfaD/8bFwyj422OlwblWbPwzsyMaNVwVvKqITvqjTqT4RuK0rss1lqtmRgRtGlYC5O79KgzqEaXgRtOZWfbiDfPfzA0MyFaM0wXsqEw37hvWEnHerpVTxpDN1Q8GtAH1w0TxVBPL8o3HwduqIwuq902LJTBsblq3h+2YaIMjl5UE8awDZ/VwWXfnTZ81DBUzRfDNtRYPMpUS4yDNkzH6uBYAkMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxdNKSqc8fcN7RyfumQDINc8YJVzTmTyi1DxTnCEe8NJuU5wsMyDM6SFwG/c4/fUL7FW2n8sCddK15A3Bk7AZsdN82ES7MU/SzZYscvceU11rruSfYZbx9iqgrbM8UFHpnwQHgm+351D8uXfkggPhAeAAAAAAAAAAAAAAAAAAAAAAD+j/wNCQx307ChGBYAAAAASUVORK5CYII="size="tiny" alt="LinkedIn"/> 
+   </button>
+   </Link>
+  
+
+   
+  </div>};
   
   export default Contact;

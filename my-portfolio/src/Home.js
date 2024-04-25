@@ -10,14 +10,14 @@ function Home() {
         <div className="Home">
         <div class="row">
   <div class="column">
-    <img className="img" src={jeff} size="small" alt="my mug"/>
+    <img className="Jeff" src={jeff} alt="my mug"/>
     </div>
 
  
   
   <div class="column">
-    <h2 className="AboutMe">About Me</h2>
-    <p className="p1">Hello there! My name is Jeff Nordstrom.</p>
+    <h2 className="AboutMe">Greetings!</h2>
+    <p className="p1">My name is Jeff Nordstrom.</p>
     <p className="p2">I'm a Certified Full-Stack Software Developer.</p>
    <Link to ="/Projects"> <button className='button'>My Projects</button></Link> <Link to="/Contact"><button className='button'>Contact Me</button></Link>
     <p className="p3">#python #mysql #reactjs #javascript #redux </p>
